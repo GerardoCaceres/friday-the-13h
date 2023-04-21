@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GerardoCaceres/friday-the-13h/static/css/main.073c9b0a.css",
+    "main.js": "/GerardoCaceres/friday-the-13h/static/js/main.9c29c276.js",
+    "static/js/787.93d6c931.chunk.js": "/GerardoCaceres/friday-the-13h/static/js/787.93d6c931.chunk.js",
+    "static/media/logo.svg": "/GerardoCaceres/friday-the-13h/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/GerardoCaceres/friday-the-13h/index.html",
+    "main.073c9b0a.css.map": "/GerardoCaceres/friday-the-13h/static/css/main.073c9b0a.css.map",
+    "main.9c29c276.js.map": "/GerardoCaceres/friday-the-13h/static/js/main.9c29c276.js.map",
+    "787.93d6c931.chunk.js.map": "/GerardoCaceres/friday-the-13h/static/js/787.93d6c931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9c29c276.js"
+  ]
+}
