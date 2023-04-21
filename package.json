@@ -2,7 +2,7 @@
   "name": "friday-the-13h",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/GerardoCaceres/friday-the-13h",
+  "homepage": "https://gerardocaceres.github.io/friday-the-13h/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
