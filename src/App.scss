@@ -1,5 +1,30 @@
+@import './styles/variables';
+
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.ace_scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.1);
+  background-color: $monokai-pro-black;
+}
+
+.ace_scrollbar::-webkit-scrollbar {
+  width: 4px;
+  background-color: $monokai-pro-black;
+}
+
+.ace_scrollbar::-webkit-scrollbar-thumb {
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,
+  40% 0%,
+  75% 100%,
+  from($monokai-purple),
+  to($monokai-black),
+  color-stop(.6,$monokai-purple))
 }
 
 .App-logo {
