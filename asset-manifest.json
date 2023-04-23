@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/friday-the-13h/static/css/main.a71b392f.css",
-    "main.js": "/friday-the-13h/static/js/main.cc13d1c5.js",
+    "main.css": "/friday-the-13h/static/css/main.b453f2da.css",
+    "main.js": "/friday-the-13h/static/js/main.aefc7e4a.js",
     "worker-xquery.js": "/friday-the-13h/752ad74d7edd516b5fd444c01019494d.js",
     "worker-javascript.js": "/friday-the-13h/f90e3d12f0ab2ccdc165e556ee5cc484.js",
     "mode-php_laravel_blade.js": "/friday-the-13h/bd6eedca1a7c1c757465796ddc7effe3.js",
@@ -449,11 +449,11 @@
     "ftl.js": "/friday-the-13h/f76ee9c8abfdd96fb9d70116d40435d5.js",
     "d.js": "/friday-the-13h/c98e74fc97b04fe8bf43dcdff549afcf.js",
     "mode-text.js": "/friday-the-13h/0ffb18fb70c87335edee31a479f58a43.js",
-    "main.a71b392f.css.map": "/friday-the-13h/static/css/main.a71b392f.css.map",
-    "main.cc13d1c5.js.map": "/friday-the-13h/static/js/main.cc13d1c5.js.map"
+    "main.b453f2da.css.map": "/friday-the-13h/static/css/main.b453f2da.css.map",
+    "main.aefc7e4a.js.map": "/friday-the-13h/static/js/main.aefc7e4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a71b392f.css",
-    "static/js/main.cc13d1c5.js"
+    "static/css/main.b453f2da.css",
+    "static/js/main.aefc7e4a.js"
   ]
 }
