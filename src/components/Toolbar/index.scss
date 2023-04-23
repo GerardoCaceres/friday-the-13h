@@ -5,6 +5,7 @@
   flex-direction: column;
   background-color: $monokai-pro-black;
 
+  &__json-mask,
   &__format,
   &__link{
     width: 50px;
@@ -12,11 +13,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
 
     svg {
       width: 36px;
       height: 36px;
     }
   }
+
+  &__button {
+    cursor: pointer;
+    border: 1px solid $monokai-pro-black;
+
+    &:hover {
+      border: 1px solid $monokai-pro-purple;
+    }
+
+    &:active {
+      border: 1px solid $monokai-pro-green;
+    }
+  }
+
 }
