@@ -19,7 +19,7 @@ const App = () => {
 	};
 
 	const handleGenerateLink = () => {
-		const url = `${window.location.origin}${window.location.pathname}?q=${encodeURIComponent(data)}`;
+		const url = `${window.location.origin}${window.location.pathname}?q=${encodeURIComponent(data.replace('%', '{{p}}'))}`;
 		navigator.clipboard.writeText(url);
 		toast.success('Se copio la url en el clipboard');
 	};
@@ -34,11 +34,12 @@ const App = () => {
 	};
 
 	useEffect(() => {
+		console.log(window.location.href);
 		const url = new URL(window.location.href);
 		const query = url.searchParams.get('q');
 		const last = localStorage.getItem('last');
 
-		if (query) setData(decodeURIComponent(query));
+		if (query) setData(decodeURIComponent(query).replace('{{p}}', '%'));
 		else if (last) setData(last);
 	}, []);
 
